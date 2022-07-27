@@ -8,4 +8,3 @@ G:\Gemensam\Till-folders and personal folders\Erik_Fura\02 Programmering\C# scri
 G:\Gemensam\Till-folders and personal folders\Erik_Fura\02 Programmering\C# scripting\01 Eclipse scripts\FieldEvaluation\FieldEvaluationOffset\obj\Debug\FieldEvaluationOffset.esapi.dll
 G:\Gemensam\Till-folders and personal folders\Erik_Fura\02 Programmering\C# scripting\01 Eclipse scripts\FieldEvaluation\FieldEvaluationOffset\obj\Debug\FieldEvaluationOffset.esapi.pdb
 G:\Gemensam\Till-folders and personal folders\Erik_Fura\02 Programmering\C# scripting\01 Eclipse scripts\FieldEvaluation\FieldEvaluationOffset\obj\Debug\FieldEvaluationOffset.csprojAssemblyReference.cache
-G:\Gemensam\Till-folders and personal folders\Erik_Fura\02 Programmering\C# scripting\01 Eclipse scripts\FieldEvaluation\FieldEvaluationOffset\obj\Debug\FieldEvaluationOffset.test.resources

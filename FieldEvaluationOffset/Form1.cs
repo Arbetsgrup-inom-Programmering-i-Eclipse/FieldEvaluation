@@ -43,7 +43,6 @@ namespace FieldEvaluationOffset
 
             InitializeComponent();
             InitializeGUI();
-            //CSItemplate();
             ClockFinish.Text = string.Empty;
         }
         private void InitializeGUI()
@@ -59,28 +58,11 @@ namespace FieldEvaluationOffset
             m_offset = new Offset();
 
         }
-        private void button1_Click(object sender, EventArgs e)
+        private void UpdateList()
         {
-            //bool CheckIDok = om.CheckId();
-            //if (CheckIDok)
-            ClockFinish.Text = "Beräknar...";
-            {
-                start = DateTime.Now;
-                double tal = 100 / om.ListOfOffsets.Count;
-                heltal = (int)Math.Ceiling(tal);
-                lblProgress.Text = (0) + "/" + om.ListOfOffsets.Count;
-
-                for (int i = 0; i < om.ListOfOffsets.Count; i++)
-                {
-                    lblProgress.Text = (i) + "/" + om.ListOfOffsets.Count;
-                    System.Windows.Forms.Application.DoEvents();
-                    CalculatePlans(om.ListOfOffsets.ElementAt(i));
-                    UpdateProgressBar(i + 1);
-                }
-                MessageBox.Show("Done!");
-                if (felMsg != "")
-                    MessageBox.Show(felMsg);
-            }
+            lbListOfOffsets.Items.Clear();
+            foreach (var offset in om.ListOfOffsets)
+                lbListOfOffsets.Items.Add(offset.ToString());
         }
         private void UpdateProgressBar(int n)
         {
@@ -132,6 +114,15 @@ namespace FieldEvaluationOffset
             }
             return ok;
         }
+        private IonPlanSetup ModifyParameters(IonPlanSetup ionPlan, Offset offset)
+        {
+            IonBeamParameters parameters = ionPlan.IonBeams.FirstOrDefault(ionbeam => ionbeam.Id.Equals(offset.FieldID)).GetEditableParameters();
+            VVector vVector = ionPlan.IonBeams.FirstOrDefault(ionbeam => ionbeam.Id.Equals(offset.FieldID)).IsocenterPosition;
+            vVector = offset.correctOffset(vVector);
+            parameters.Isocenter = vVector;
+            ionPlan.IonBeams.FirstOrDefault(ionbeam => ionbeam.Id.Equals(offset.FieldID)).ApplyParameters(parameters);
+            return ionPlan;
+        }
         private void CalculatePlans(Offset _offset)
         {
             if (CheckForID(m_course, _offset.NewPlanID()))
@@ -160,30 +151,7 @@ namespace FieldEvaluationOffset
                 felMsg += ("Plannamnet: " + _offset.NewPlanID() + " finns redan, ta bort och försök igen\n");
             }
         }
-        private IonPlanSetup ModifyParameters(IonPlanSetup ionPlan, Offset offset)
-        {
-            IonBeamParameters parameters = ionPlan.IonBeams.FirstOrDefault(ionbeam => ionbeam.Id.Equals(offset.FieldID)).GetEditableParameters();
-            VVector vVector = ionPlan.IonBeams.FirstOrDefault(ionbeam => ionbeam.Id.Equals(offset.FieldID)).IsocenterPosition;
-            vVector = offset.correctOffset(vVector);
-            parameters.Isocenter = vVector;
-            ionPlan.IonBeams.FirstOrDefault(ionbeam => ionbeam.Id.Equals(offset.FieldID)).ApplyParameters(parameters);
-            return ionPlan;
-        }
 
-        private void btnCSItemplate_Click(object sender, EventArgs e)
-        {
-            if (m_plan.IonBeams.Count() >= 4)
-            {
-                om = new OffsetManager();
-                UpdateList();
-                CSItemplate temp = new CSItemplate(m_plan);
-                om = temp.CSIOffsetManager;
-                //OffsetCorrectionUpdate();
-                UpdateList();
-            }
-            else
-                MessageBox.Show("För få fält för mall, lägg till manuellt");
-        }
         private bool OffsetCorrectionUpdate()
         {
             bool ok = false;
@@ -198,6 +166,7 @@ namespace FieldEvaluationOffset
             }
             return ok;
         }
+
         private double AddOutputToOffset(string input)
         {
             double coordinate;
@@ -205,6 +174,7 @@ namespace FieldEvaluationOffset
                 coordinate = 0;
             return coordinate;
         }
+
         private void OutputFromField()
         {
             oppisiteOffset = new Offset(m_offset);
@@ -266,6 +236,44 @@ namespace FieldEvaluationOffset
                 om.Add(oppisiteOffset);
             
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            ClockFinish.Text = "Beräknar...";
+            {
+                start = DateTime.Now;
+                double tal = 100 / om.ListOfOffsets.Count;
+                heltal = (int)Math.Ceiling(tal);
+                lblProgress.Text = (0) + "/" + om.ListOfOffsets.Count;
+
+                for (int i = 0; i < om.ListOfOffsets.Count; i++)
+                {
+                    lblProgress.Text = (i) + "/" + om.ListOfOffsets.Count;
+                    System.Windows.Forms.Application.DoEvents();
+                    CalculatePlans(om.ListOfOffsets.ElementAt(i));
+                    UpdateProgressBar(i + 1);
+                }
+                MessageBox.Show("Done!");
+                if (felMsg != "")
+                    MessageBox.Show(felMsg);
+            }
+        }
+
+        private void btnCSItemplate_Click(object sender, EventArgs e)
+        {
+            if (m_plan.IonBeams.Count() >= 4)
+            {
+                om = new OffsetManager();
+                UpdateList();
+                CSItemplate temp = new CSItemplate(m_plan);
+                om = temp.CSIOffsetManager;
+                //OffsetCorrectionUpdate();
+                UpdateList();
+            }
+            else
+                MessageBox.Show("För få fält för mall, lägg till manuellt");
+        }
+
         private void btnAddField_Click(object sender, EventArgs e)
         {
             bool ok = CheckIsoGroup();
@@ -290,48 +298,12 @@ namespace FieldEvaluationOffset
                 m_offset = new Offset();
             }
         }
-        private bool CheckIsoGroup()
-        {
-            bool ok = true;
-            dubbelField = "";
-            int i = 0;
-            foreach (var beam in m_plan.IonBeams)
-            {
-                IonBeam currentBeam = (IonBeam)cbFieldID.SelectedItem;
-                double x = -(currentBeam.IsocenterPosition.x - beam.IsocenterPosition.x);
-                double y = currentBeam.IsocenterPosition.y - beam.IsocenterPosition.y;
-                double z = -(currentBeam.IsocenterPosition.z - beam.IsocenterPosition.z);
-                if (x == 0 && y == 0 && z == 0)
-                {
-                    i++;
-                    if (i > 1)
-                    {
-                        ok = false;
-                    }
-                    dubbelField += beam.Id + ", ";
-                }
-            }
-            return ok;
-        }
-
-        private void UpdateList()
-        {
-            lbListOfOffsets.Items.Clear();
-            foreach (var offset in om.ListOfOffsets)
-                lbListOfOffsets.Items.Add(offset.ToString());
-        }
 
         private void btnDelete_Click(object sender, EventArgs e)
         {
             if (om.CheckIndex(lbListOfOffsets.SelectedIndex))
                 om.Delete(lbListOfOffsets.SelectedIndex);
             UpdateList();
-        }
-
-
-        private void CheckIndex()
-        {
-            throw new NotImplementedException();
         }
 
         private void btnRensa_Click(object sender, EventArgs e)
@@ -365,6 +337,30 @@ namespace FieldEvaluationOffset
         {
             var controls = control.Controls.Cast<Control>();
             return controls.SelectMany(ctrls => GetAll(ctrls, type)).Concat(controls).Where(c => c.GetType() == type);
+        }
+
+        private bool CheckIsoGroup()
+        {
+            bool ok = true;
+            dubbelField = "";
+            int i = 0;
+            foreach (var beam in m_plan.IonBeams)
+            {
+                IonBeam currentBeam = (IonBeam)cbFieldID.SelectedItem;
+                double x = -(currentBeam.IsocenterPosition.x - beam.IsocenterPosition.x);
+                double y = currentBeam.IsocenterPosition.y - beam.IsocenterPosition.y;
+                double z = -(currentBeam.IsocenterPosition.z - beam.IsocenterPosition.z);
+                if (x == 0 && y == 0 && z == 0)
+                {
+                    i++;
+                    if (i > 1)
+                    {
+                        ok = false;
+                    }
+                    dubbelField += beam.Id + ", ";
+                }
+            }
+            return ok;
         }
     }
 }

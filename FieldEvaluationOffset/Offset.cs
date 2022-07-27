@@ -12,9 +12,6 @@ namespace FieldEvaluationOffset
     public class Offset
     {
         private string _originalPlanID;
-        /*private Coordinate _x;
-        private Coordinate _y;
-        private Coordinate _z;*/
         private double _x;
         private double _y;
         private double _z;
@@ -74,21 +71,6 @@ namespace FieldEvaluationOffset
         {
             get { return int.Parse(Regex.Match(_fieldID, @"\d+").Value); }
         }
-        /*public Coordinate x
-        {
-            get { return _x; }
-            set { _x = value; }
-        }
-        public Coordinate y
-        {
-            get { return _y; }
-            set { _y = value; }
-        }
-        public Coordinate z
-        {
-            get { return _z; }
-            set { _z = value; }
-        }*/
         public double x
         {
             get { return _x; }
@@ -116,8 +98,7 @@ namespace FieldEvaluationOffset
         {
             get { return _z; }
         }
-
-        //public List<Coordinate> ListOfCoord { get { return new List<Coordinate>() { _x, _y, _z }; } }
+        
 
         public Offset()
         {
@@ -175,7 +156,6 @@ namespace FieldEvaluationOffset
         public override string ToString()
         {
             string strOut = string.Format("{0, 3} {1, 7} {2, 5} {3, 5} {4, 8} {5, 6} {6, 7}", FieldIDnumber, _x, _y, _z, -_isoX, -_isoY, -_isoZ);
-            //string strOut = string.Format("{0, 5} {1, 35} {2, 30} {3, 30}", "1", "+1", "-2", "±3");
             return strOut;
         }
         private string SignCheck(double number, string axis)
