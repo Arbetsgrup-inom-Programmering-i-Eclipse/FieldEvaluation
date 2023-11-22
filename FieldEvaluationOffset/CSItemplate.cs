@@ -16,6 +16,7 @@ namespace FieldEvaluationOffset
 
         public CSItemplate(IonPlanSetup m_plan)
         {
+            //Testkommentar
             _om = new OffsetManager();
             Offset bakreSkallField = new Offset();
             Offset lowerRyggField = new Offset();
