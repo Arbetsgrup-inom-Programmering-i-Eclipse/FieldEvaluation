@@ -1,0 +1,39 @@
+H:\Documents\C# scripting\01 Eclipse scripts\FieldEvaluation\FieldEvaluation\bin\x64\Debug\FieldEvaluation.esapi.pdb
+H:\Documents\C# scripting\01 Eclipse scripts\FieldEvaluation\FieldEvaluation\bin\x64\Debug\VMS.TPS.Common.Model.API.dll
+H:\Documents\C# scripting\01 Eclipse scripts\FieldEvaluation\FieldEvaluation\bin\x64\Debug\VMS.TPS.Common.Model.Interface.dll
+H:\Documents\C# scripting\01 Eclipse scripts\FieldEvaluation\FieldEvaluation\bin\x64\Debug\VMS.TPS.Common.Model.Types.dll
+H:\Documents\C# scripting\01 Eclipse scripts\FieldEvaluation\FieldEvaluation\obj\x64\Debug\FieldEvaluation.csproj.CoreCompileInputs.cache
+H:\Documents\C# scripting\01 Eclipse scripts\FieldEvaluation\FieldEvaluation\obj\x64\Debug\FieldEvaluation.csproj.CopyComplete
+H:\Documents\C# scripting\01 Eclipse scripts\FieldEvaluation\FieldEvaluation\obj\x64\Debug\FieldEvaluation.esapi.pdb
+H:\Documents\C# scripting\01 Eclipse scripts\FieldEvaluation\FieldEvaluation\obj\x64\Debug\FieldEvaluation.csprojResolveAssemblyReference.cache
+H:\Documents\C# scripting\01 Eclipse scripts\FieldEvaluation\FieldEvaluation\bin\x64\Debug\FieldEvaluation.esapi.dll
+H:\Documents\C# scripting\01 Eclipse scripts\FieldEvaluation\FieldEvaluation\obj\x64\Debug\FieldEvaluation.esapi.dll
+H:\Documents\C# scripting\01 Eclipse scripts\FieldEvaluation\FieldEvaluation\obj\x64\Debug\CSI_GUI.Form1.resources
+H:\Documents\C# scripting\01 Eclipse scripts\FieldEvaluation\FieldEvaluation\obj\x64\Debug\CSI_GUI.OffsetCorrection.resources
+H:\Documents\C# scripting\01 Eclipse scripts\FieldEvaluation\FieldEvaluation\obj\x64\Debug\FieldEvaluation.csproj.GenerateResource.cache
+H:\Documents\02 Programmering\C# scripting\01 Eclipse scripts\FieldEvaluation\FieldEvaluation\obj\x64\Debug\FieldEvaluation.csprojResolveAssemblyReference.cache
+H:\Documents\02 Programmering\C# scripting\01 Eclipse scripts\FieldEvaluation\FieldEvaluation\obj\x64\Debug\CSI_GUI.Form1.resources
+H:\Documents\02 Programmering\C# scripting\01 Eclipse scripts\FieldEvaluation\FieldEvaluation\obj\x64\Debug\CSI_GUI.OffsetCorrection.resources
+H:\Documents\02 Programmering\C# scripting\01 Eclipse scripts\FieldEvaluation\FieldEvaluation\obj\x64\Debug\FieldEvaluation.csproj.GenerateResource.cache
+H:\Documents\02 Programmering\C# scripting\01 Eclipse scripts\FieldEvaluation\FieldEvaluation\obj\x64\Debug\FieldEvaluation.csproj.CoreCompileInputs.cache
+H:\Documents\02 Programmering\C# scripting\01 Eclipse scripts\FieldEvaluation\FieldEvaluation\obj\x64\Debug\FieldEvaluation.esapi.dll
+H:\Documents\02 Programmering\C# scripting\01 Eclipse scripts\FieldEvaluation\FieldEvaluation\obj\x64\Debug\FieldEvaluation.esapi.pdb
+H:\Documents\02 Programmering\C# scripting\01 Eclipse scripts\FieldEvaluation\FieldEvaluation\bin\x64\Debug\FieldEvaluation.esapi.dll
+H:\Documents\02 Programmering\C# scripting\01 Eclipse scripts\FieldEvaluation\FieldEvaluation\bin\x64\Debug\FieldEvaluation.esapi.pdb
+H:\Documents\02 Programmering\C# scripting\01 Eclipse scripts\FieldEvaluation\FieldEvaluation\bin\x64\Debug\VMS.TPS.Common.Model.API.dll
+H:\Documents\02 Programmering\C# scripting\01 Eclipse scripts\FieldEvaluation\FieldEvaluation\bin\x64\Debug\VMS.TPS.Common.Model.Interface.dll
+H:\Documents\02 Programmering\C# scripting\01 Eclipse scripts\FieldEvaluation\FieldEvaluation\bin\x64\Debug\VMS.TPS.Common.Model.Types.dll
+H:\Documents\02 Programmering\C# scripting\01 Eclipse scripts\FieldEvaluation\FieldEvaluation\obj\x64\Debug\FieldEvaluation.csproj.CopyComplete
+G:\Gemensam\Till-folders and personal folders\Erik_Fura\02 Programmering\C# scripting\01 Eclipse scripts\FieldEvaluation\FieldEvaluation\bin\x64\Debug\FieldEvaluation.esapi.dll
+G:\Gemensam\Till-folders and personal folders\Erik_Fura\02 Programmering\C# scripting\01 Eclipse scripts\FieldEvaluation\FieldEvaluation\bin\x64\Debug\FieldEvaluation.esapi.pdb
+G:\Gemensam\Till-folders and personal folders\Erik_Fura\02 Programmering\C# scripting\01 Eclipse scripts\FieldEvaluation\FieldEvaluation\bin\x64\Debug\VMS.TPS.Common.Model.API.dll
+G:\Gemensam\Till-folders and personal folders\Erik_Fura\02 Programmering\C# scripting\01 Eclipse scripts\FieldEvaluation\FieldEvaluation\bin\x64\Debug\VMS.TPS.Common.Model.Interface.dll
+G:\Gemensam\Till-folders and personal folders\Erik_Fura\02 Programmering\C# scripting\01 Eclipse scripts\FieldEvaluation\FieldEvaluation\bin\x64\Debug\VMS.TPS.Common.Model.Types.dll
+G:\Gemensam\Till-folders and personal folders\Erik_Fura\02 Programmering\C# scripting\01 Eclipse scripts\FieldEvaluation\FieldEvaluation\obj\x64\Debug\FieldEvaluation.csprojResolveAssemblyReference.cache
+G:\Gemensam\Till-folders and personal folders\Erik_Fura\02 Programmering\C# scripting\01 Eclipse scripts\FieldEvaluation\FieldEvaluation\obj\x64\Debug\FieldEvaluation.csproj.GenerateResource.cache
+G:\Gemensam\Till-folders and personal folders\Erik_Fura\02 Programmering\C# scripting\01 Eclipse scripts\FieldEvaluation\FieldEvaluation\obj\x64\Debug\FieldEvaluation.csproj.CoreCompileInputs.cache
+G:\Gemensam\Till-folders and personal folders\Erik_Fura\02 Programmering\C# scripting\01 Eclipse scripts\FieldEvaluation\FieldEvaluation\obj\x64\Debug\FieldEvaluation.csproj.CopyComplete
+G:\Gemensam\Till-folders and personal folders\Erik_Fura\02 Programmering\C# scripting\01 Eclipse scripts\FieldEvaluation\FieldEvaluation\obj\x64\Debug\FieldEvaluation.esapi.dll
+G:\Gemensam\Till-folders and personal folders\Erik_Fura\02 Programmering\C# scripting\01 Eclipse scripts\FieldEvaluation\FieldEvaluation\obj\x64\Debug\FieldEvaluation.esapi.pdb
+G:\Gemensam\Till-folders and personal folders\Erik_Fura\02 Programmering\C# scripting\01 Eclipse scripts\FieldEvaluation\FieldEvaluation\obj\x64\Debug\FieldEvaluation.Form1.resources
+G:\Gemensam\Till-folders and personal folders\Erik_Fura\02 Programmering\C# scripting\01 Eclipse scripts\FieldEvaluation\FieldEvaluation\obj\x64\Debug\FieldEvaluation.OffsetCorrection.resources

@@ -1,0 +1,25 @@
+G:\Gemensam\Till-folders and personal folders\Erik_Fura\02 Programmering\C# scripting\01 Eclipse scripts\FieldEvaluation\FieldEvaluationOffset\obj\Debug\FieldEvaluationOffset.Form1.resources
+G:\Gemensam\Till-folders and personal folders\Erik_Fura\02 Programmering\C# scripting\01 Eclipse scripts\FieldEvaluation\FieldEvaluationOffset\obj\Debug\FieldEvaluationOffset.OffsetCorrection.resources
+G:\Gemensam\Till-folders and personal folders\Erik_Fura\02 Programmering\C# scripting\01 Eclipse scripts\FieldEvaluation\FieldEvaluationOffset\obj\Debug\FieldEvaluationOffset.csproj.GenerateResource.cache
+G:\Gemensam\Till-folders and personal folders\Erik_Fura\02 Programmering\C# scripting\01 Eclipse scripts\FieldEvaluation\FieldEvaluationOffset\obj\Debug\FieldEvaluationOffset.csproj.CoreCompileInputs.cache
+G:\Gemensam\Till-folders and personal folders\Erik_Fura\02 Programmering\C# scripting\01 Eclipse scripts\FieldEvaluation\FieldEvaluationOffset\obj\Debug\FieldEvaluationOffset.backFieldChooser.resources
+G:\Gemensam\Till-folders and personal folders\Erik_Fura\02 Programmering\C# scripting\01 Eclipse scripts\FieldEvaluation\FieldEvaluationOffset\bin\Debug\FieldEvaluationOffset.esapi.dll
+G:\Gemensam\Till-folders and personal folders\Erik_Fura\02 Programmering\C# scripting\01 Eclipse scripts\FieldEvaluation\FieldEvaluationOffset\bin\Debug\FieldEvaluationOffset.esapi.pdb
+G:\Gemensam\Till-folders and personal folders\Erik_Fura\02 Programmering\C# scripting\01 Eclipse scripts\FieldEvaluation\FieldEvaluationOffset\obj\Debug\FieldEvaluationOffset.esapi.dll
+G:\Gemensam\Till-folders and personal folders\Erik_Fura\02 Programmering\C# scripting\01 Eclipse scripts\FieldEvaluation\FieldEvaluationOffset\obj\Debug\FieldEvaluationOffset.esapi.pdb
+G:\Gemensam\Till-folders and personal folders\Erik_Fura\02 Programmering\C# scripting\01 Eclipse scripts\FieldEvaluation\FieldEvaluationOffset\obj\Debug\FieldEvaluationOffset.csprojAssemblyReference.cache
+H:\02 Programmering\C# scripting\01 Eclipse scripts\FieldEvaluation\FieldEvaluationOffset\bin\Debug\FieldEvaluationOffset.esapi.dll
+H:\02 Programmering\C# scripting\01 Eclipse scripts\FieldEvaluation\FieldEvaluationOffset\bin\Debug\FieldEvaluationOffset.esapi.pdb
+H:\02 Programmering\C# scripting\01 Eclipse scripts\FieldEvaluation\FieldEvaluationOffset\bin\Debug\VMS.TPS.Common.Model.API.dll
+H:\02 Programmering\C# scripting\01 Eclipse scripts\FieldEvaluation\FieldEvaluationOffset\bin\Debug\VMS.TPS.Common.Model.Types.dll
+H:\02 Programmering\C# scripting\01 Eclipse scripts\FieldEvaluation\FieldEvaluationOffset\bin\Debug\VMS.TPS.Common.Model.API.xml
+H:\02 Programmering\C# scripting\01 Eclipse scripts\FieldEvaluation\FieldEvaluationOffset\bin\Debug\VMS.TPS.Common.Model.Types.xml
+H:\02 Programmering\C# scripting\01 Eclipse scripts\FieldEvaluation\FieldEvaluationOffset\obj\Debug\FieldEvaluationOffset.csproj.AssemblyReference.cache
+H:\02 Programmering\C# scripting\01 Eclipse scripts\FieldEvaluation\FieldEvaluationOffset\obj\Debug\FieldEvaluationOffset.backFieldChooser.resources
+H:\02 Programmering\C# scripting\01 Eclipse scripts\FieldEvaluation\FieldEvaluationOffset\obj\Debug\FieldEvaluationOffset.MainForm.resources
+H:\02 Programmering\C# scripting\01 Eclipse scripts\FieldEvaluation\FieldEvaluationOffset\obj\Debug\FieldEvaluationOffset.OffsetCorrection.resources
+H:\02 Programmering\C# scripting\01 Eclipse scripts\FieldEvaluation\FieldEvaluationOffset\obj\Debug\FieldEvaluationOffset.csproj.GenerateResource.cache
+H:\02 Programmering\C# scripting\01 Eclipse scripts\FieldEvaluation\FieldEvaluationOffset\obj\Debug\FieldEvaluationOffset.csproj.CoreCompileInputs.cache
+H:\02 Programmering\C# scripting\01 Eclipse scripts\FieldEvaluation\FieldEvaluationOffset\obj\Debug\FieldEvaluationOffset.csproj.CopyComplete
+H:\02 Programmering\C# scripting\01 Eclipse scripts\FieldEvaluation\FieldEvaluationOffset\obj\Debug\FieldEvaluationOffset.esapi.dll
+H:\02 Programmering\C# scripting\01 Eclipse scripts\FieldEvaluation\FieldEvaluationOffset\obj\Debug\FieldEvaluationOffset.esapi.pdb
